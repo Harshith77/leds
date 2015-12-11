@@ -69,5 +69,29 @@
         </next>
       </block>
     </statement>
+    <next>
+      <block type="controls_if" id="41" inline="false">
+        <value name="IF0">
+          <block type="sensor_object" id="58">
+            <field name="OBJECT">LEFTFRONT</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="movement_right" id="69"></block>
+        </statement>
+        <next>
+          <block type="controls_if" id="76" inline="false">
+            <value name="IF0">
+              <block type="sensor_object" id="83">
+                <field name="OBJECT">RIGHTFRONT</field>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="movement_left" id="103"></block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </next>
   </block>
 </xml>
