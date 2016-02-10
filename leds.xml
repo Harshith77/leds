@@ -6,7 +6,7 @@
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_left" id="149">
+      <block type="movement_left" id="3">
         <next>
           <block type="led_select" id="4" inline="true">
             <field name="ACTION">ON</field>
